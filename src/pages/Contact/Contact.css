@@ -2,12 +2,110 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 7rem);
+    height: calc(100vh - 5rem);
+}
+
+.contactContainer {
+    background-color: #fff;
+    height: 80vh;
+    width: 90vw;
+    padding: 3rem;
+    overflow: scroll;
+}
+
+.top {
     margin-bottom: 2rem;
 }
 
-.container {
-    background-color: #fff;
-    height: 80vh;
-    width: 70vw;
+.top h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Merienda One', cursive;
+}
+
+.top p {
+    font-size: 1.2em;
+}
+
+.topLeft {
+
+}
+
+.topRight {
+
+}
+
+.main {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.mainLeft {
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.mainRight {
+    overflow: hidden;
+}
+
+.mainRight form {
+    
+}
+
+.mainRight form input, .mainRight form textarea {
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgba(245, 209, 192, 0.829);
+    font-size: 18px;
+    width: 100%;
+}
+
+.mainRight form textarea {
+    height: 8rem;
+}
+
+.mainRight form input:focus, .mainRight form textarea:focus {
+    outline: 2px solid brown;
+}
+
+button {
+    padding: 0.625rem 1.25rem;
+    border-radius: 2rem;
+    float: right;
+    border: none;
+    color: #fff;
+    background-color: rgb(194, 102, 65);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bottom {
+}
+
+.bottomLeft {
+    margin-bottom: 2rem;
+}
+
+.bottomRight {
+}
+
+.bottomRight ul {
+    padding: 0;
+    list-style: none;
+}
+
+.bottomRight ul li {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bottomRight ul li a {
+    text-decoration: none;
+    color: #000;
 }
