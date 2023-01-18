@@ -1,13 +1,28 @@
 .resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 7rem);
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 5rem);
 }
 
-.container {
-    background-color: #fff;
-    height: 80vh;
-    width: 70vw;
+.resumeContainer {
+  background-color: #fff;
+  height: 80vh;
+  width: 90vw;
+  padding: 3rem;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: "Merienda One", cursive;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.main {
+  display: block;
 }

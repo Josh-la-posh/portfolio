@@ -1,28 +1,27 @@
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
     <div className="contact">
       <div className="contactContainer">
-        <div className="top">
+        <header>
           <h1>Get In Touch</h1>
           <p>
             Are you looking for a front-end engineer for freelance, part-time or
             full-time jobs?
           </p>
-        </div>
+        </header>
 
-        <div className="main row">
-          <div className="mainLeft col-12 col-md-4">
+        <div className="mainContent row">
+          <div className="mainLeft col-sm-12 col-md-4">
             <h2>Let's connect and work together.</h2>
             <p>
               Don't like forms? Send me an{" "}
               <a href="mailto:joshuamayowa23@yahoo.com">email</a>.
             </p>
           </div>
-          <div className="mainRight col-12 col-md-8">
+          <div className="mainRight col-sm-12 col-md-8">
             <form>
               <div className="continer">
                 <div className="row">
@@ -55,16 +54,16 @@ export const Contact = () => {
           <div className="bottomRight col-12 col-md-8">
             <ul className="row">
               <li className="col-xs-12 col-sm-2">
-                <Link><FontAwesomeIcon icon="fa-brands fa-github" /> Github</Link>
+                <a target='_blank' href='https://github.com/Josh-la-posh'><FontAwesomeIcon icon="fa-brands fa-github" /> Github</a>
               </li>
               <li className="col-xs-12 col-sm-2">
-                <Link>Linkedln</Link>
+                <a target='_blank' href='https://www.linkedin.com/in/jfajobi/'>Linkedln</a>
               </li>
               <li className="col-xs-12 col-sm-2">
-                <Link>Twitter</Link>
+                <a target='_blank' href='https://www.twitter.com/nova_jy'>Twitter</a>
               </li>
               <li className="col-xs-12 col-sm-2">
-                <Link>Instagram</Link>
+                <a target='_blank' href='https://www.instagram.com/josh_la_posh'>Instagram</a>
               </li>
             </ul>
           </div>
