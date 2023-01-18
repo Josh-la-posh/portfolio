@@ -18,7 +18,7 @@ export const Resume = () => {
             <div className="mainContent col-12 col-md-8">
               <p>July 2023 - Present</p>
               <h3>Software Engineer</h3>
-              <p>Health Station Ltd.</p>
+              <p style={{fontSize: '1em', color: '#333'}}>Health Station Ltd.</p>
               <ul>
                 <li>Utilized HTML, CSS, and JavaScript to create 100+ responsive landing pages for the company</li>
                 <li>
@@ -37,7 +37,7 @@ export const Resume = () => {
               <div className="mainContent">
                 <h3>Responsive Web Design</h3>
                 <p><em>freeCodeCamp</em></p>
-                <p>July 2021 - Oct 2021</p>
+                <p className="date">July 2021 - Oct 2021</p>
                 <p>This course taught me comprehensively various technical sklls important in frontend web development. Completed several projects encompassing the knowledge of: <br />
 
                   <ul>
@@ -49,7 +49,7 @@ export const Resume = () => {
               <div className="mainContent">
                 <h3>BSC. IN M ENGINEERING</h3>
                 <p><em>University of Lagos, Nigeria.</em></p>
-                <p>Dec 2016 - Nov 2021</p>
+                <p className="date">Dec 2016 - Nov 2021</p>
 
                   <ul>
                     <li>HTML, CSS</li>
@@ -64,7 +64,7 @@ export const Resume = () => {
               <p>TOOLS & TECHNOLOGIES</p>
             </div>
             <div className="mainContent col-12 col-md-8">
-              ha
+              
             </div>
           </section>
         </div>

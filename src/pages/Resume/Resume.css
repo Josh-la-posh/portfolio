@@ -9,13 +9,14 @@
   background-color: #fff;
   height: 80vh;
   width: 90vw;
+  max-width: 80rem;
   padding: 3rem;
   overflow-y: scroll;
 }
 
 h1 {
   font-size: 3em;
-  margin-bottom: 10px;
+  margin-bottom: unset;
   font-family: "Merienda One", cursive;
 }
 
@@ -23,6 +24,34 @@ h2 {
   font-size: 1.5em;
 }
 
+h3 {
+  margin: unset;
+}
+
 .main {
   display: block;
+}
+
+section .sideBar p {
+  color: #777;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+section .mainContent p {
+  margin: 0;
+}
+
+section .mainContent .date {
+  background-color: rgb(230, 130, 113);
+  width: fit-content;
+  font-size: .8em;
+  padding: 8px;
+  margin: .5rem 0;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+section .mainContent ul {
+  padding: 1rem;
 }
