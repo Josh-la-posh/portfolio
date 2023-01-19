@@ -47,7 +47,7 @@ export const Resume = () => {
                 </p>
               </article>
               <article className="mainContent">
-                <h3>BSC. IN M ENGINEERING</h3>
+                <h3>BSC. IN MECHANICAL ENGINEERING</h3>
                 <p><em>University of Lagos, Nigeria.</em></p>
                 <p className="date">Dec 2016 - Nov 2021</p>
 

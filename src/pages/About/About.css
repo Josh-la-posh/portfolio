@@ -11,6 +11,7 @@
   width: 90vw;
   padding: 3rem;
   max-width: 80rem;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h1 {
 .mainRight article {
     margin-bottom: 2rem;
     font-size: 15px;
+    animation: slideUp 1s ease-in;
 }
 
 .mainRight ul {
@@ -95,4 +97,19 @@ h1 {
 .whatIDo .myContainer:hover .logo,
 .whatIDo .myContainer:hover span {
     color: #fff;
+}
+
+section .mainContent ul {
+  padding: 1rem;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

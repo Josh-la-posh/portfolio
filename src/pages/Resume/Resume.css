@@ -32,6 +32,10 @@ h3 {
   display: block;
 }
 
+.main .mainContent {
+  animation: slideUp 1s ease-in;
+}
+
 section .sideBar p {
   color: #777;
   font-weight: bolder;
@@ -54,4 +58,15 @@ section .mainContent .date {
 
 section .mainContent ul {
   padding: 1rem;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -14,14 +14,14 @@ export const Contact = () => {
         </header>
 
         <div className="mainContent row">
-          <div className="mainLeft col-sm-12 col-md-4">
+          <section className="mainLeft col-sm-12 col-md-4">
             <h2>Let's connect and work together.</h2>
             <p>
               Don't like forms? Send me an{" "}
               <a href="mailto:joshuamayowa23@yahoo.com">email</a> <FontAwesomeIcon icon="hand" style={{color: 'gold'}}/>.
             </p>
-          </div>
-          <div className="mainRight col-sm-12 col-md-8">
+          </section>
+          <section className="mainRight col-sm-12 col-md-8">
             <form>
               <div className="continer">
                 <div className="row">
@@ -46,7 +46,7 @@ export const Contact = () => {
               </div>
               <button>Send Message</button>
             </form>
-          </div>
+          </section>
         </div>
 
         <div className="bottom row">
