@@ -66,6 +66,10 @@ nav ul li:hover a::after {
 }
 
 @media only screen and (max-width: 750px) {
+  .header {
+    height: 4rem;
+  }
+
   .navigation {
     display: none;
     position: absolute;

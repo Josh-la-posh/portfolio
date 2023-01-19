@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Contact = () => {
   return (
-    <div className="contact">
-      <div className="contactContainer">
+    <div className="pageBody">
+      <div className="pageContainer">
         <header>
           <h1>Get In Touch</h1>
           <p>

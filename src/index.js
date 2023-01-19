@@ -6,6 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faAddressBook, faBriefcase, faCircleExclamation, faCircleXmark, faCode, faEnvelope, faFile, faGripLines, faHand, faHouse, faUserCheck } from "@fortawesome/free-solid-svg-icons";
 import App from "./App";
+import './index.css';
 
 library.add(fab, faHand, faLinkedin, faTwitter, faInstagram, faGithub, faUserCheck, faCode, faEnvelope, faGripLines, faCircleXmark, faHouse, faAddressBook, faBriefcase, faCircleExclamation, faFile);
 

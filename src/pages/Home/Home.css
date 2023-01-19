@@ -36,11 +36,16 @@
 
 @media only screen and (max-width: 750px) {
   .home {
-    padding-right: 1.5rem;
+  justify-content: center;
+  }
+
+  .homeContainer {
+    width: unset;
   }
 
   .homeContainer h1 {
     font-size: 3em;
+    min-width: 200px;
   }
 
   .homeContainer .links ul {

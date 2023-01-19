@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
-    <div className="about">
-      <div className="aboutContainer">
+    <div className="pageBody">
+      <div className="pageContainer">
         <header>
           <h1>Meet Joshua Fajobi</h1>
         </header>
 
         <div className="mainContent row">
-          <section className="col-sm-12 col-md-4">
+          <section className="leftSection col-sm-12 col-md-4">
             <span className="leftSpan">
               <img src="images/myAvatar.png" />
             </span>

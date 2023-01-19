@@ -2,8 +2,8 @@ import "./Resume.css";
 
 export const Resume = () => {
   return (
-    <div className="resume">
-      <div className="resumeContainer">
+    <div className="pageBody">
+      <div className="pageContainer">
         <header>
           <h1>Resume</h1>
           <p>Learn more about my skills, qualifications and experiences.</p>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: rgba(165, 81, 42, 0.815) !important;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .pageBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 5rem);
+  }
+
+  .pageContainer {
+    background-color: #fff;
+    height: 80vh;
+    width: 90vw;
+    padding: 3rem;
+    max-width: 80rem;
+    overflow-y: scroll;
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }  
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: "Merienda One", cursive;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
