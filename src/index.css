@@ -16,13 +16,14 @@
   .pageBody {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
+    padding: 2rem 0;
+    /* align-items: center; */
+    height: calc(95vh - 5rem);
   }
 
   .pageContainer {
     background-color: #fff;
-    height: 80vh;
+    /* height: 80vh; */
     width: 90vw;
     padding: 3rem;
     max-width: 80rem;
