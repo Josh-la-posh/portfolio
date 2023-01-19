@@ -11,11 +11,11 @@ export const Resume = () => {
 
         <div className="main">
           <section className="row">
-            <div className="sideBar col-12 col-md-4">
+            <article className="sideBar col-12 col-md-4">
               <h2 className="title">Work Experience</h2>
               <p>PRESENT & PREVIOUS JOBS</p>
-            </div>
-            <div className="mainContent col-12 col-md-8">
+            </article>
+            <article className="mainContent col-12 col-md-8">
               <p>July 2023 - Present</p>
               <h3>Software Engineer</h3>
               <p style={{fontSize: '1em', color: '#333'}}>Health Station Ltd.</p>
@@ -26,15 +26,15 @@ export const Resume = () => {
                 </li>
                 <li>Designed, developed and maintained the front-end application for the company's project using ReactJS, TypeScript and Ant Design</li>
               </ul>
-            </div>
+            </article>
           </section>
           <section className="row">
-            <div className="sideBar col-12 col-md-4">
+            <article className="sideBar col-12 col-md-4">
               <h2 className="title">Education</h2>
               <p>ACADEMY CAREER</p>
-            </div>
+            </article>
             <div className="col-12 col-md-8">
-              <div className="mainContent">
+              <article className="mainContent">
                 <h3>Responsive Web Design</h3>
                 <p><em>freeCodeCamp</em></p>
                 <p className="date">July 2021 - Oct 2021</p>
@@ -45,8 +45,8 @@ export const Resume = () => {
                     <li>Responsive Web Design</li>
                   </ul>
                 </p>
-              </div>
-              <div className="mainContent">
+              </article>
+              <article className="mainContent">
                 <h3>BSC. IN M ENGINEERING</h3>
                 <p><em>University of Lagos, Nigeria.</em></p>
                 <p className="date">Dec 2016 - Nov 2021</p>
@@ -55,14 +55,14 @@ export const Resume = () => {
                     <li>HTML, CSS</li>
                     <li>Responsive Web Design</li>
                   </ul>
-              </div>
+              </article>
             </div>
           </section>
           <section className="row">
-            <div className="sideBar col-12 col-md-4">
+            <article className="sideBar col-12 col-md-4">
               <h2 className="title">Tech Stack</h2>
               <p>TOOLS & TECHNOLOGIES</p>
-            </div>
+            </article>
             <div className="mainContent col-12 col-md-8">
               
             </div>
