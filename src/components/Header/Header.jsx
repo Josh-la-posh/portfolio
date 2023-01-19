@@ -19,7 +19,7 @@ export const Header = () => {
         <ul>
           <li>
             <FontAwesomeIcon className="headerLinkIcon" icon="house" />
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <FontAwesomeIcon
