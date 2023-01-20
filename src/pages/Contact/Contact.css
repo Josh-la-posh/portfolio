@@ -3,10 +3,11 @@
 }
 
 .mainLeft {
+  margin-bottom: 2rem;
 }
 
 .mainRight {
-  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 section form {
@@ -19,7 +20,7 @@ section form button {
 
 .mainRight form input,
 .mainRight form textarea {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   padding: 1.2rem;
   border-radius: 2rem;
   border: none;
@@ -66,15 +67,15 @@ button {
 }
 
 .bottomRight ul li {
-  margin-right: 1rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem 2rem;
 }
 
 .bottomRight ul li a {
   color: #000;
   display: flex;
   align-items: center;
-  gap: .5rem;
+  justify-content: center;
+  gap: .3rem;
 }
 
 .bottomRight ul li a .icon {

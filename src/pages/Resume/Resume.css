@@ -44,3 +44,10 @@ section .mainContent ul {
     transform: translateY(0);
   }
 }
+
+.mainContent .stacks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
