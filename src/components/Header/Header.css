@@ -70,12 +70,15 @@ nav ul li:hover a::after {
   }
 
   .navigation {
-    display: none;
     position: absolute;
     right: 0;
     top: 0;
     height: 100vh;
     background: #000;
+  }
+
+  .navigation2 {
+    display: none;
   }
 
   .navigation ul {
@@ -86,16 +89,19 @@ nav ul li:hover a::after {
 
   .navigation ul li {
     margin: 1rem;
+  }
+
+  .navigation ul li a {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
 
-  .navigation ul li a {
+  .navigation ul li a span{
     display: none;
   }
 
-  .navigation:hover ul li a {
+  .navigation:hover ul li a span {
     display: block;
   }
 

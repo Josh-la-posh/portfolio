@@ -18,7 +18,7 @@ export const Resume = () => {
             </article>
             <article className="mainContent col-12 col-md-8">
               <p>July 2023 - Present</p>
-              <h3>Software Engineer</h3>
+              <strong>Software Engineer</strong>
               <p style={{ fontSize: "1em", color: "#333" }}>
                 Health Station Ltd.
               </p>
@@ -46,7 +46,7 @@ export const Resume = () => {
             </article>
             <div className="col-12 col-md-8">
               <article className="mainContent">
-                <h3>Responsive Web Design</h3>
+                <h4>Responsive Web Design</h4>
                 <p>
                   <em>freeCodeCamp</em>
                 </p>
@@ -62,7 +62,7 @@ export const Resume = () => {
                 </p>
               </article>
               <article className="mainContent">
-                <h3>BSC. IN MECHANICAL ENGINEERING</h3>
+                <h4>BSC. IN MECHANICAL ENGINEERING</h4>
                 <p>
                   <em>University of Lagos, Nigeria.</em>
                 </p>

@@ -8,48 +8,54 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <div className="logo"><Link to="/">JF</Link></div>
-      <nav
-        className="navigation"
-        style={isNavOpen ? { display: "block" } : { display: "none" }}
-      >
-        <div className="closeIcon" onClick={() => setIsNavOpen(!isNavOpen)}>
+      <div className="logo" onClick={() => setIsNavOpen(false)}>
+        <Link to="/">JF</Link>
+      </div>
+      <nav className={isNavOpen ? "navigation" : "navigation2"}>
+        <div className="closeIcon" onClick={() => setIsNavOpen(false)}>
           <FontAwesomeIcon icon="circle-xmark" />
         </div>
         <ul>
-          <li>
-            <FontAwesomeIcon className="headerLinkIcon" icon="house" />
-            <Link to="/home">Home</Link>
+          <li onClick={() => setIsNavOpen(false)}>
+            <Link to="/home">
+              <FontAwesomeIcon className="headerLinkIcon" icon="house" />
+              <span>Home</span>
+            </Link>
           </li>
-          <li>
-            <FontAwesomeIcon
-              className="headerLinkIcon"
-              icon="circle-exclamation"
-            />
-            <Link to="/about">About</Link>
+          <li onClick={() => setIsNavOpen(false)}>
+            <Link to="/about">
+              <FontAwesomeIcon
+                className="headerLinkIcon"
+                icon="circle-exclamation"
+              />
+              <span>About</span>
+            </Link>
           </li>
-          <li>
-            <FontAwesomeIcon className="headerLinkIcon" icon="file" />
-            <Link to="/resume">Resume</Link>
+          <li onClick={() => setIsNavOpen(false)}>
+            <Link to="/resume">
+              <FontAwesomeIcon className="headerLinkIcon" icon="file" />
+              <span>Resume</span>
+            </Link>
           </li>
-          <li>
-            <FontAwesomeIcon className="headerLinkIcon" icon="briefcase" />
-            <Link to="/portfolio">Portfolio</Link>
+          <li onClick={() => setIsNavOpen(false)}>
+            <Link to="/portfolio">
+              <FontAwesomeIcon className="headerLinkIcon" icon="briefcase" />
+              <span>Portfolio</span>
+            </Link>
           </li>
-          <li>
-            <FontAwesomeIcon className="headerLinkIcon" icon="address-book" />
-            <Link to="/contact">Contact</Link>
+          <li onClick={() => setIsNavOpen(false)}>
+            <Link to="/contact">
+              <FontAwesomeIcon className="headerLinkIcon" icon="address-book" />
+              <span>Contact</span>
+            </Link>
           </li>
         </ul>
       </nav>
-      <span
-        className="minIcon"
-        onClick={() => setIsNavOpen(!isNavOpen)}
-        style={isNavOpen ? { display: "none" } : { display: "block" }}
-      >
-        <FontAwesomeIcon icon="grip-lines" />
-      </span>
-      {console.log(isNavOpen)}
+      {
+        <span className="minIcon" onClick={() => setIsNavOpen(true)}>
+          <FontAwesomeIcon icon="grip-lines" />
+        </span>
+      }
     </div>
   );
 };

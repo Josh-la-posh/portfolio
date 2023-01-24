@@ -15,7 +15,7 @@ export const Contact = () => {
 
         <div className="mainContent row">
           <section className="mainLeft col-sm-12 col-md-4">
-            <h2>Let's connect and work together.</h2>
+            <h2>Let's work together!</h2>
             <p>
               Don't like forms? Send me an{" "}
               <a href="mailto:joshuamayowa23@yahoo.com">email</a> <FontAwesomeIcon icon="hand" style={{color: 'gold'}}/>.
