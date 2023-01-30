@@ -5,8 +5,14 @@
   }
 
   body {
-    background: rgba(165, 81, 42, 0.815);
+    /* background: rgba(165, 81, 42, 0.815); */
+    background-image: linear-gradient(to bottom, #000, #000, transparent);
+    background-image: linear-gradient(to bottom, #000, #1f2937, rgba(31,41,55,0));
     position: relative;
+  }
+
+  nav ul li a {
+  color: #878d99;
   }
 
   a {
@@ -17,7 +23,7 @@
     display: flex;
     justify-content: center;
     padding: 2rem 0;
-    height: calc(90vh - 5rem);
+    height: calc(100vh - 5rem);
   }
 
   .pageContainer {
@@ -29,7 +35,7 @@
   }
 
   header {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   header p {
@@ -38,10 +44,16 @@
 
   h1 {
     font-size: 3em;
+    font-weight: bold;
     margin-bottom: 10px;
-    font-family: "Merienda One", cursive;
+    font-family:  cursive;
+    color: #06B6D4;
   }
   
   h2 {
     font-size: 1.5em;
+  }
+
+  .myColor {
+    color: #06B6D4;
   }

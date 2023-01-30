@@ -31,7 +31,7 @@
 }
 
 .logo a {
-  color: #fff;
+  color: #06B6D4;
 }
 
 nav ul {
@@ -45,12 +45,9 @@ nav ul li {
   position: relative;
 }
 
-nav ul li a {
-  color: #fff;
-}
-
 nav ul li a:hover {
-  color: #fff;
+  color: #878d99;
+  font-weight: bold;
 }
 
 nav ul li:hover a::after {
@@ -58,7 +55,7 @@ nav ul li:hover a::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  border-bottom: 4px solid red;
+  border-bottom: 4px solid #06B6D4 ;
   margin-bottom: -.5rem;
   width: 70%;
   transition: transform 2s ease-in-out;

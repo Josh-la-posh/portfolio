@@ -15,10 +15,10 @@ export const Contact = () => {
 
         <div className="mainContent row">
           <section className="mainLeft col-sm-12 col-md-4">
-            <h2>Let's work together!</h2>
+            <h2 className="myColor">Let's work together!</h2>
             <p>
               Don't like forms? Send me an{" "}
-              <a href="mailto:joshuamayowa23@yahoo.com">email</a> <FontAwesomeIcon icon="hand" style={{color: 'gold'}}/>.
+              <a style={{color: '#06B6D4'}} href="mailto:joshuamayowa23@yahoo.com">email</a> <FontAwesomeIcon icon="hand" style={{color: 'gold'}}/>.
             </p>
           </section>
           <section className="mainRight col-sm-12 col-md-8">
@@ -50,7 +50,7 @@ export const Contact = () => {
         </div>
 
         <div className="bottom row">
-          <h2 className="bottomLeft col-12 col-md-4">Reach out on social media!</h2>
+          <h2 className="bottomLeft myColor col-12 col-md-4">Reach out on social media!</h2>
           <div className="bottomRight col-12 col-md-8">
             <ul className="row">
               <li className="col-xs-12 col-sm-2">

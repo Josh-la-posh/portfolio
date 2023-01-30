@@ -11,13 +11,16 @@ section .sideBar p {
   font-weight: bolder;
   font-size: 15px;
 }
+section {
+  margin-bottom: 2rem;
+}
 
 section .mainContent p {
   margin: 0;
 }
 
 section .mainContent .date {
-  background-color: rgb(230, 130, 113);
+  background-color: #00b2d13b;
   width: fit-content;
   font-size: .8em;
   padding: 8px;

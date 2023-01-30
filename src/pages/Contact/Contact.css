@@ -24,7 +24,7 @@ section form button {
   padding: 1.2rem;
   border-radius: 2rem;
   border: none;
-  background-color: rgba(245, 209, 192, 0.829);
+  background-color: #00b2d13b;
   font-size: 18px;
   width: 100%;
 }
@@ -35,7 +35,7 @@ section form button {
 
 .mainRight form input:focus,
 .mainRight form textarea:focus {
-  outline: 2px solid brown;
+  outline: 2px solid #06B6D4;
 }
 
 button {
@@ -44,7 +44,7 @@ button {
   float: right;
   border: none;
   color: #fff;
-  background-color: rgb(194, 102, 65);
+  background-image: linear-gradient(to right, #06B6D4, #3b82f6);
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;

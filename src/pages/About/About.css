@@ -9,12 +9,12 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #06B6D4;
   position: relative;
   margin-bottom: 2rem;
 }
 
-.mainContent img {
+.mainContent .leftSpan img {
     position: absolute;
     width: 7rem;
     left: 15%;
