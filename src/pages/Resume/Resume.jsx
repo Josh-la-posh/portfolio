@@ -81,56 +81,56 @@ export const Resume = () => {
               <p>TOOLS & TECHNOLOGIES</p>
             </article>
             <article className="mainContent col-12 col-md-8">
-            <ul className="stacks">
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-html5"]}
-                  style={{ color: "#e34c26", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-css3-alt"]}
-                  style={{ color: "#2965f1", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-js"]}
-                  style={{ color: "#F0DB4F", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-react"]}
-                  style={{ color: "#61dbfb", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-bootstrap"]}
-                  style={{ color: "#563d7c", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-sass"]}
-                  style={{ color: "#cc6699", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-git-alt"]}
-                  style={{ color: "#f34f29", width: "40", height: "40" }}
-                />
-              </li>
-              <li className="stack">
-                <FontAwesomeIcon
-                  icon={["fab", "fa-github"]}
-                  style={{ color: "#171515", width: "40", height: "40" }}
-                />
-              </li>
-            </ul>
+              <ul className="stacks">
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-html5"]}
+                    style={{ color: "#e34c26", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-css3-alt"]}
+                    style={{ color: "#2965f1", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-js"]}
+                    style={{ color: "#F0DB4F", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-react"]}
+                    style={{ color: "#61dbfb", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-bootstrap"]}
+                    style={{ color: "#563d7c", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-sass"]}
+                    style={{ color: "#cc6699", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-git-alt"]}
+                    style={{ color: "#f34f29", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-github"]}
+                    style={{ color: "#171515", width: "40", height: "40" }}
+                  />
+                </li>
+              </ul>
             </article>
           </section>
         </div>

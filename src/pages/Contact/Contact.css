@@ -15,7 +15,7 @@ section form {
 }
 
 section form button {
-  animation: slideLeft 2s ease-in
+  animation: slideLeft 2s ease-in;
 }
 
 .mainRight form input,
@@ -35,7 +35,7 @@ section form button {
 
 .mainRight form input:focus,
 .mainRight form textarea:focus {
-  outline: 2px solid #06B6D4;
+  outline: 2px solid #06b6d4;
 }
 
 button {
@@ -44,7 +44,7 @@ button {
   float: right;
   border: none;
   color: #fff;
-  background-image: linear-gradient(to right, #06B6D4, #3b82f6);
+  background-image: linear-gradient(to right, #06b6d4, #3b82f6);
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -75,7 +75,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .3rem;
+  gap: 0.3rem;
 }
 
 .bottomRight ul li a .icon {

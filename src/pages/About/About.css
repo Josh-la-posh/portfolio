@@ -9,78 +9,76 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background-color: #06B6D4;
+  background-color: #06b6d4;
   position: relative;
   margin-bottom: 2rem;
 }
 
 .mainContent .leftSpan img {
-    position: absolute;
-    width: 7rem;
-    left: 15%;
-    bottom: 15%;
-    animation: moveUp 2s ease-in;
-    transition: transform .2s;
+  position: absolute;
+  width: 7rem;
+  left: 15%;
+  bottom: 15%;
+  animation: moveUp 2s ease-in;
+  transition: transform 0.2s;
 }
 
 @keyframes moveUp {
-    0% {
-        bottom: -70%;
-        display: none;
-    }
-    100% {
-        bottom: 15%;
-        display: block;
-    }
+  0% {
+    bottom: -70%;
+    display: none;
+  }
+  100% {
+    bottom: 15%;
+    display: block;
+  }
 }
 
 .mainRight article {
-    margin-bottom: 2rem;
-    font-size: 15px;
-    animation: slideUp 1s ease-in;
+  margin-bottom: 2rem;
+  font-size: 15px;
+  animation: slideUp 1s ease-in;
 }
 
 .mainRight ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .mainRight ul li {
-    line-height: 1.8rem;
-    width: 100%;
-    --bs-gutter-x: 0;
+  line-height: 1.8rem;
+  width: 100%;
+  --bs-gutter-x: 0;
 }
 
 .whatIDo .myContainer {
-    max-width: 150px;
-    box-shadow: 0 5px 17px 2px rgb(0 0 0 / 15%);
-    padding: 10px 20px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
+  max-width: 150px;
+  box-shadow: 0 5px 17px 2px rgb(0 0 0 / 15%);
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .whatIDo .myContainer .logo {
-    color: #af5c3b;
-    /* width: 30px;
-    height: 30px; */
+  color: #06b6d4;
 }
 
 .whatIDo .myContainer span {
-    line-height: 24px;
-    text-align: center;
+  line-height: 24px;
+  text-align: center;
 }
 
 .whatIDo .myContainer:hover {
-    background-color: #af5c3b;
+  background-color: #06b6d4;
 }
 
 .whatIDo .myContainer:hover .logo,
 .whatIDo .myContainer:hover span {
-    color: #fff;
+  color: #fff;
 }
 
 section .mainContent ul {

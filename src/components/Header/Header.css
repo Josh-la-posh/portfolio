@@ -31,7 +31,7 @@
 }
 
 .logo a {
-  color: #06B6D4;
+  color: #06b6d4;
 }
 
 nav ul {
@@ -50,13 +50,13 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-nav ul li:hover a::after {
+.header nav ul li:hover a::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
-  border-bottom: 4px solid #06B6D4 ;
-  margin-bottom: -.5rem;
+  border-bottom: 4px solid #06b6d4;
+  margin-bottom: -0.5rem;
   width: 70%;
   transition: transform 2s ease-in-out;
 }
@@ -94,7 +94,7 @@ nav ul li:hover a::after {
     gap: 1rem;
   }
 
-  .navigation ul li a span{
+  .navigation ul li a span {
     display: none;
   }
 
@@ -105,7 +105,7 @@ nav ul li:hover a::after {
   .closeIcon {
     display: block;
     margin-top: 1rem;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     text-align: center;
   }
 
