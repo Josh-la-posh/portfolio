@@ -64,11 +64,11 @@ export const Data = [
         githubLink: 'https://github.com/Josh-la-posh/Trillo'
     },
     {
-        id: 'chat',
-        img: 'images/nat.png',
-        name: 'Chat App',
+        id: 'portfolio',
+        img: 'images/port.png',
+        name: 'Portfolio',
         desc: '',
-        demoLink: 'https://posh-ecommerce.netlify.app/',
-        githubLink: 'https://poshchat.netlify.app/'
+        demoLink: 'https://posholio.netlify.app/',
+        githubLink: 'https://github.com/Josh-la-posh/portfolio'
     },
 ]
