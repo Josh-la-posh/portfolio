@@ -17,12 +17,13 @@
 }
 
 .boxContainer {
-  background-color: #000;
+  border: 1px solid #fff;
+  background-color: rgb(66, 60, 60);
   height: 20rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 6px 1px #4b5563;
+  box-shadow: 0 4px 6px 1px #1f2937;
 }
 
 .boxContainer .imgContainer {

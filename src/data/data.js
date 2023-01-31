@@ -40,12 +40,12 @@ export const Data = [
         githubLink: 'https://github.com/Josh-la-posh/todo-app'
     },
     {
-        id: 'natours',
-        img: 'images/nat.png',
-        name: 'Natour',
+        id: 'portfolio',
+        img: 'images/port.png',
+        name: 'Portfolio',
         desc: '',
-        demoLink: 'https://j-nat.netlify.app/',
-        githubLink: 'https://github.com/Josh-la-posh/Natours'
+        demoLink: 'https://posholio.netlify.app/',
+        githubLink: 'https://github.com/Josh-la-posh/portfolio'
     },
     {
         id: 'robo',
@@ -64,11 +64,11 @@ export const Data = [
         githubLink: 'https://github.com/Josh-la-posh/Trillo'
     },
     {
-        id: 'portfolio',
-        img: 'images/port.png',
-        name: 'Portfolio',
+        id: 'natours',
+        img: 'images/nat.png',
+        name: 'Natour',
         desc: '',
-        demoLink: 'https://posholio.netlify.app/',
-        githubLink: 'https://github.com/Josh-la-posh/portfolio'
+        demoLink: 'https://j-nat.netlify.app/',
+        githubLink: 'https://github.com/Josh-la-posh/Natours'
     },
-]
+    ]
