@@ -32,21 +32,21 @@ export const Contact = () => {
               <div className="continer">
                 <div className="row">
                   <div className="col-12 col-sm-6">
-                    <input type="text" placeholder="Your Name" name="name"/>
+                    <input type="text" placeholder="Your Name" name="name" required/>
                   </div>
                   <div className="col-12 col-sm-6">
-                    <input type="email" placeholder="Email Address" name="email"/>
+                    <input type="email" placeholder="Email Address" name="email" required/>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-12">
-                  <input type="text" placeholder="Subject" name="subject"/>
+                  <input type="text" placeholder="Subject" name="subject" required/>
                 </div>
               </div>
               <div className="row">
                 <div className="col-12">
-                  <textarea name="message" id="" placeholder="Message"></textarea>
+                  <textarea name="message" id="" placeholder="Message" required></textarea>
                 </div>
               </div>
               <button>Send Message</button>
