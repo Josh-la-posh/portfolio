@@ -28,25 +28,25 @@ export const Contact = () => {
             </p>
           </section>
           <section className="mainRight col-sm-12 col-md-8">
-            <form>
+            <form method="POST" action="https://getform.io/f/f6d32946-aa51-4f76-a038-482862500667">
               <div className="continer">
                 <div className="row">
                   <div className="col-12 col-sm-6">
-                    <input type="text" placeholder="Your Name" />
+                    <input type="text" placeholder="Your Name" name="name"/>
                   </div>
                   <div className="col-12 col-sm-6">
-                    <input type="text" placeholder="Email Address" />
+                    <input type="email" placeholder="Email Address" name="email"/>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-12">
-                  <input type="text" placeholder="Subject" />
+                  <input type="text" placeholder="Subject" name="subject"/>
                 </div>
               </div>
               <div className="row">
                 <div className="col-12">
-                  <textarea name="" id="" placeholder="Message"></textarea>
+                  <textarea name="message" id="" placeholder="Message"></textarea>
                 </div>
               </div>
               <button>Send Message</button>
