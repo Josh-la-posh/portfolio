@@ -32,7 +32,7 @@ export const Resume = () => {
                   company's hardware products.
                 </li>
                 <li>
-                  Designed, developed and maintained the front-end application
+                  Maintained the front-end application
                   for the company's project using ReactJS, TypeScript and Ant
                   Design
                 </li>
