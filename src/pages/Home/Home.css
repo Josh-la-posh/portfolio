@@ -16,7 +16,7 @@
 
 .homeContainer h1 {
   border-right: .1em solid #006ed3;
-  width: 100%;
+  /* width: 4rem; */
   white-space: nowrap;
   overflow: hidden;
   font-size: 4em;
@@ -24,7 +24,7 @@
   font-weight: bold;
 }
 .homeContainer h1:nth-child(1) {
-  width: 6.2em;
+  /* width: 100%; */
   -webkit-animation: type 6s steps(40, end);
   animation: type 6s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -67,7 +67,8 @@
 
   .homeContainer h1 {
     font-size: 3em;
-    min-width: 200px;
+    /* min-width: 200px; */
+    width: 100%;
   }
 
   .homeContainer .links ul {
