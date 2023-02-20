@@ -8,6 +8,7 @@
 
 .homeContainer {
   width: 55%;
+  overflow: hidden;
 }
 
 .homeContainer h1 {
@@ -16,7 +17,7 @@
 
 .homeContainer h1 {
   border-right: .1em solid #006ed3;
-  /* width: 4rem; */
+  width: 25rem;
   white-space: nowrap;
   overflow: hidden;
   font-size: 4em;
@@ -59,6 +60,7 @@
 @media only screen and (max-width: 750px) {
   .home {
     justify-content: center;
+    overflow: hidden;
   }
 
   .homeContainer {
@@ -67,7 +69,6 @@
 
   .homeContainer h1 {
     font-size: 3em;
-    /* min-width: 200px; */
     width: 100%;
   }
 
