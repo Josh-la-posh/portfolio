@@ -13,7 +13,7 @@ export const About = () => {
         <div className="mainContent row">
           <section className="leftSection col-sm-12 col-md-4">
             <span className="leftSpan">
-              <img src="images/myAvatar.png" />
+              <img src="images/pic.jpeg" />
             </span>
           </section>
           <section className="mainRight col-sm-12 col-md-8">

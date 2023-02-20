@@ -17,14 +17,14 @@ export const Resume = () => {
               <p>PRESENT & PREVIOUS JOBS</p>
             </article>
             <article className="mainContent col-12 col-md-8">
-              <p className="myColor">July 2023 - Present</p>
+              <p className="myColor">March 2022 - Present</p>
               <strong>Software Engineer</strong>
               <p style={{ fontSize: "1em", color: "#333" }}>
                 Health Station Ltd.
               </p>
               <ul>
                 <li>
-                  Utilized HTML, CSS, and JavaScript to create 100+ responsive
+                  Utilized HTML, CSS, and JavaScript to create responsive
                   landing pages for the company
                 </li>
                 <li>
@@ -46,6 +46,24 @@ export const Resume = () => {
             </article>
             <div className="col-12 col-md-8">
               <article className="mainContent">
+                <h4 className="myColor">Front End Development Libraries</h4>
+                <p>
+                  <em>freeCodeCamp</em>
+                </p>
+                <p className="date">July 2022 - Feb 2023</p>
+                <p>
+                  This course extensively taught me various libraries used in
+                  building frontend applications including: <br />
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>SASS</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                  </ul>
+                </p>
+              </article>
+              <article className="mainContent">
                 <h4 className="myColor">Responsive Web Design</h4>
                 <p>
                   <em>freeCodeCamp</em>
@@ -53,11 +71,13 @@ export const Resume = () => {
                 <p className="date">July 2021 - Oct 2021</p>
                 <p>
                   This course taught me comprehensively various technical sklls
-                  important in frontend web development. Completed several
-                  projects encompassing the knowledge of: <br />
+                  in designing a responsive websites that adapt to different
+                  screen sizes and devices, providing users with an optimal
+                  viewing and navigation experience. Completed several projects
+                  encompassing the knowledge of: <br />
                   <ul>
-                    <li>HTML, CSS</li>
-                    <li>Responsive Web Design</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                   </ul>
                 </p>
               </article>
@@ -69,8 +89,7 @@ export const Resume = () => {
                 <p className="date">Dec 2016 - Nov 2021</p>
 
                 <ul>
-                  <li>HTML, CSS</li>
-                  <li>Responsive Web Design</li>
+                  <li>Relevant Coursework: Introduction to Programming language</li>
                 </ul>
               </article>
             </div>

@@ -6,19 +6,21 @@
 
 .mainContent .leftSpan {
   display: block;
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   background-color: #06b6d4;
   position: relative;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 
 .mainContent .leftSpan img {
   position: absolute;
-  width: 7rem;
-  left: 15%;
-  bottom: 15%;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
   animation: moveUp 2s ease-in;
   transition: transform 0.2s;
 }
@@ -29,7 +31,7 @@
     display: none;
   }
   100% {
-    bottom: 15%;
+    bottom: 0;
     display: block;
   }
 }
