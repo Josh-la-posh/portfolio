@@ -24,18 +24,23 @@ export const Resume = () => {
               </p>
               <ul>
                 <li>
-                  Utilized HTML, CSS, and JavaScript to create responsive
-                  landing pages for the company
+                Worked on the development of multiple web and mobile applications using React, React Native, Flutter, TypeScript, and API integration.
                 </li>
                 <li>
-                  Worked with the software team to build software to support the
-                  company's hardware products.
+                Developed custom reusable React components to enhance code quality and maintainability.
                 </li>
                 <li>
-                  Maintained the front-end application
-                  for the company's project using ReactJS, TypeScript and Ant
-                  Design
+                Worked with Git for version control and GitHub for code collaboration with other developers.
                 </li>
+                <li>Deployed web applications on Netlify for seamless and continuous integration and deployment.</li>
+                <li>Built responsive and user-friendly interfaces using Bootstrap and SCSS.</li>
+                <li>Worked with jQuery to enhance user experience.</li>
+              </ul>
+              <strong>Projects</strong>
+              <ul>
+                <li>Developed an e-commerce web application using React that increased sales by 30%.</li>
+                <li>Built a Netflix clone web application using React and API integration.</li>
+                <li>Developed a todo mobile application using React Native and Flutter for cross-platform support.</li>
               </ul>
             </article>
           </section>
