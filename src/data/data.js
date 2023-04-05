@@ -24,20 +24,20 @@ export const Data = [
     githubLink: "https://github.com/Josh-la-posh/travel-agency",
   },
   {
+    id: "dashboard",
+    img: "images/dash.png",
+    name: "Dashboard",
+    desc: "",
+    demoLink: "https://posh-dashboard.netlify.app/",
+    githubLink: "https://github.com/Josh-la-posh/posh_dashboard",
+  },
+  {
     id: "weather",
     img: "images/weather.png",
     name: "Weather App",
     desc: "",
     demoLink: "https://posh-weather-app.netlify.app/",
     githubLink: "https://github.com/Josh-la-posh/react-weather-app",
-  },
-  {
-    id: "todo",
-    img: "images/todo.png",
-    name: "Todo App",
-    desc: "",
-    demoLink: "https://posh-todo.netlify.app/",
-    githubLink: "https://github.com/Josh-la-posh/todo-app",
   },
   {
     id: "portfolio",
@@ -54,6 +54,14 @@ export const Data = [
     desc: "",
     demoLink: "https://robofriendscreator.netlify.app/",
     githubLink: "https://github.com/Josh-la-posh/robofriends",
+  },
+  {
+    id: "todo",
+    img: "images/todo.png",
+    name: "Todo App",
+    desc: "",
+    demoLink: "https://posh-todo.netlify.app/",
+    githubLink: "https://github.com/Josh-la-posh/todo-app",
   },
   {
     id: "trillo",
