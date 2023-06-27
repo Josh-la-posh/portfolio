@@ -16,6 +16,7 @@ import {
   faReact,
   faSass,
   faTwitter,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faAddressBook,
@@ -38,6 +39,7 @@ library.add(
   faHand,
   faLinkedin,
   faTwitter,
+  faPython,
   faInstagram,
   faGithub,
   faUserCheck,

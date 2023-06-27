@@ -17,31 +17,56 @@ export const Resume = () => {
               <p>PRESENT & PREVIOUS JOBS</p>
             </article>
             <article className="mainContent col-12 col-md-8">
-              <p className="myColor">March 2022 - Present</p>
-              <strong>Software Engineer</strong>
-              <p style={{ fontSize: "1em", color: "#333" }}>
-                Health Station Ltd.
-              </p>
-              <ul>
-                <li>
-                Worked on the development of multiple web and mobile applications using React, React Native, Flutter, TypeScript, and API integration.
-                </li>
-                <li>
-                Developed custom reusable React components to enhance code quality and maintainability.
-                </li>
-                <li>
-                Worked with Git for version control and GitHub for code collaboration with other developers.
-                </li>
-                <li>Deployed web applications on Netlify for seamless and continuous integration and deployment.</li>
-                <li>Built responsive and user-friendly interfaces using Bootstrap and SCSS.</li>
-                <li>Worked with jQuery to enhance user experience.</li>
-              </ul>
-              <strong>Projects</strong>
-              <ul>
-                <li>Developed an e-commerce web application using React that increased sales by 30%.</li>
-                <li>Built a Netflix clone web application using React and API integration.</li>
-                <li>Developed a todo mobile application using React Native and Flutter for cross-platform support.</li>
-              </ul>
+              <div className="">
+                <p className="myColor">May 2023 - Present</p>
+                <strong>Front-end Developer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  Bimbs Tech (Contract)
+                </p>
+                <ul>
+                  <li>
+                    Developed a responsive landing page using Next.js and
+                    TypeScript, ensuring optimal performance and user
+                    experience.
+                  </li>
+                  <li>
+                    Utilized React, Vite, and TypeScript to build a
+                    comprehensive school application, incorporating features
+                    such as user authentication, dashboard, course management,
+                    attendance, e.t.c while maintaining high efficiency and
+                    responsiveness.
+                  </li>
+                  <li>
+                    Conducted thorough testing and debugging to identify and fix
+                    any front-end issues or performance bottlenecks, ensuring an
+                    efficient and seamless user experience.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to gather
+                    requirements, provide technical insights, and deliver
+                    high-quality solutions within project timelines while
+                    optimizing resource utilization.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <p className="myColor">March 2022 - Present</p>
+                <strong>Front-end Developer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  Health Station Ltd.
+                </p>
+                <ul>
+                  <li>
+                    Contributed to the software team responsible for building
+                    software to support the company's hardware products.
+                  </li>
+                  <li>
+                    Applied my knowledge of DSA and SOLID principles to write
+                    better and neater code, thereby increasing the efficiency of
+                    the application by ~40%.
+                  </li>
+                </ul>
+              </div>
             </article>
           </section>
           <section className="row">
@@ -94,7 +119,10 @@ export const Resume = () => {
                 <p className="date">Dec 2016 - Nov 2021</p>
 
                 <ul>
-                  <li>Relevant Coursework: Introduction to Programming language</li>
+                  <li>
+                    Relevant Coursework: Data Structures, Introduction to
+                    Programming Language, Python Programming Language.
+                  </li>
                 </ul>
               </article>
             </div>
@@ -125,21 +153,39 @@ export const Resume = () => {
                   />
                 </li>
                 <li className="stack">
+                  <img src="../../../icons/typescript.png" alt="" width={35} />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/python.svg" alt="" width={40} />
+                </li>
+                <li className="stack">
                   <FontAwesomeIcon
                     icon={["fab", "fa-react"]}
                     style={{ color: "#61dbfb", width: "40", height: "40" }}
                   />
                 </li>
                 <li className="stack">
-                  <FontAwesomeIcon
-                    icon={["fab", "fa-bootstrap"]}
-                    style={{ color: "#563d7c", width: "40", height: "40" }}
-                  />
+                  <img src="../../../icons/next.png" alt="" width={40} />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/dart.png" alt="" width={40} />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/flutter.png" alt="" width={40} />
                 </li>
                 <li className="stack">
                   <FontAwesomeIcon
                     icon={["fab", "fa-sass"]}
                     style={{ color: "#cc6699", width: "40", height: "40" }}
+                  />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/tailwind.png" alt="" width={40} />
+                </li>
+                <li className="stack">
+                  <FontAwesomeIcon
+                    icon={["fab", "fa-bootstrap"]}
+                    style={{ color: "#563d7c", width: "40", height: "40" }}
                   />
                 </li>
                 <li className="stack">
@@ -153,6 +199,28 @@ export const Resume = () => {
                     icon={["fab", "fa-github"]}
                     style={{ color: "#171515", width: "40", height: "40" }}
                   />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/bitbucket.png" alt="" width={40} />
+                </li>
+                <li className="stack">
+                  <img
+                    src="../../../icons/linux.png"
+                    alt=""
+                    width={80}
+                    style={{ marginLeft: "-1.5rem", marginRight: '-1.5rem' }}
+                  />
+                </li>
+                <li className="stack">
+                  <img
+                    src="../../../icons/netlify.png"
+                    alt=""
+                    width={40}
+                    height={40}
+                  />
+                </li>
+                <li className="stack">
+                  <img src="../../../icons/firebase.png" alt="" width={40} />
                 </li>
               </ul>
             </article>
