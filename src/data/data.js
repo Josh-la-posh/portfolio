@@ -1,5 +1,21 @@
 export const Data = [
   {
+    id: "oponeko",
+    img: "images/oponeko.png",
+    name: "Oponeko App",
+    desc: "",
+    demoLink: "https://oponeko.com/",
+    githubLink: "",
+  },
+  {
+    id: "touramp",
+    img: "images/touramp.png",
+    name: "Touramp Food App",
+    desc: "",
+    demoLink: "https://touramp.xyz/",
+    githubLink: "",
+  },
+  {
     id: "ecommerce",
     img: "images/poshCommerce.png",
     name: "E-Commerce App",

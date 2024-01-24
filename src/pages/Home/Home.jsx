@@ -7,7 +7,7 @@ export const Home = () => {
     <div className="home">
       <div className="homeContainer">
         <h1>Joshua Fajobi</h1>
-        <p>Front-End Developer</p>
+        <p>Software Engineer</p>
         <nav className="links">
           <ul>
             <li>

@@ -18,8 +18,26 @@ export const Resume = () => {
             </article>
             <article className="mainContent col-12 col-md-8">
               <div className="">
-                <p className="myColor">May 2023 - Present</p>
-                <strong>Front-end Developer</strong>
+                <p className="myColor">August 2023 - November 2023</p>
+                <strong>Mobile Engineer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  GG Consult (Contract)
+                </p>
+                <ul>
+                  <li>
+                    Developed a custom Admin User Interface library that increased developer productivity and code reusability.
+                  </li>
+                  <li>
+                    Optimized the application for performance, resulting in a 20% reduction in loading time.
+                  </li>
+                  <li>
+                    Deployed 1 android application, integrated with Paystack and Braintree payment gateway
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <p className="myColor">July 2022 - March 2023</p>
+                <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   Bimbs Tech (Contract)
                 </p>
@@ -50,8 +68,8 @@ export const Resume = () => {
                 </ul>
               </div>
               <div className="">
-                <p className="myColor">March 2022 - Present</p>
-                <strong>Front-end Developer</strong>
+                <p className="myColor">February 2022 - Present</p>
+                <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   Health Station Ltd.
                 </p>
@@ -60,11 +78,13 @@ export const Resume = () => {
                     Contributed to the software team responsible for building
                     software to support the company's hardware products.
                   </li>
+                  <li>Collaborated with design teams to implement complex user interfaces for prioritized features, improving user engagement and retention across multiple product releases, resulting in a 20% increase in user engagement and a 15% increase in user retention.</li>
                   <li>
                     Applied my knowledge of DSA and SOLID principles to write
                     better and neater code, thereby increasing the efficiency of
                     the application by ~40%.
                   </li>
+                  <li>Deployed 1 android application, integrated with Paystack payment gateway.</li>
                 </ul>
               </div>
             </article>
