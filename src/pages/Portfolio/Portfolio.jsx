@@ -29,7 +29,7 @@ export const Portfolio = () => {
                           </li>
                           <li>
                             <a target="_blank" href={`${data.githubLink}`}>
-                              Code
+                              {!data.githubLink.length ? '' : 'Code'}
                             </a>
                           </li>
                         </ul>
