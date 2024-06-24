@@ -91,6 +91,12 @@ export const About = () => {
                   </div>
                   <span>Front-End Web Development</span>
                 </div>
+                <div className="myContainer">
+                  <div className="logo">
+                    <FontAwesomeIcon icon="code" />
+                  </div>
+                  <span>Mobile Development</span>
+                </div>
               </div>
             </article>
             <article>

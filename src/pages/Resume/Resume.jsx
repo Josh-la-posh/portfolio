@@ -18,6 +18,24 @@ export const Resume = () => {
             </article>
             <article className="mainContent col-12 col-md-8">
               <div className="">
+                <p className="myColor">March 2024 - June 2024</p>
+                <strong>Mobile Engineer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  MyPouch (Contract)
+                </p>
+                <ul>
+                  <li>
+                    Developed the frontend for a currency exchange app, implementing features to ensure seamless user interaction and efficient functionality.
+                  </li>
+                  <li>
+                    Utilized technologies such Flutter and Provider for state management.
+                  </li>
+                  <li>
+                    Collaborated with the backend team to integrate APIs and optimize performance.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
                 <p className="myColor">August 2023 - November 2023</p>
                 <strong>Mobile Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
@@ -36,6 +54,24 @@ export const Resume = () => {
                 </ul>
               </div>
               <div className="">
+                <p className="myColor">July 2023 - December 2023</p>
+                <strong>Frontend Tutor</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  Digital Skill Schools (Contract)
+                </p>
+                <ul>
+                  <li>
+                    Taught programming languages and concepts to students of varying skill levels, focusing on practical application and real-world projects.
+                  </li>
+                  <li>
+                    Developed curriculum and teaching materials for programming courses, utilizing interactive learning activities and practical exercises to increase student retention.
+                  </li>
+                  <li>
+                    Mentored and supported students in their learning journey, providing guidance and feedback to help achieve their learning goals.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
                 <p className="myColor">July 2022 - March 2023</p>
                 <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
@@ -43,48 +79,53 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Developed a responsive landing page using Next.js and
-                    TypeScript, ensuring optimal performance and user
-                    experience.
+                    Contributed to the creation of engaging user interfaces and deliver high-quality web applications that meet both functional and aesthetic requirements.
                   </li>
                   <li>
-                    Utilized React, Vite, and TypeScript to build a
-                    comprehensive school application, incorporating features
-                    such as user authentication, dashboard, course management,
-                    attendance, e.t.c while maintaining high efficiency and
-                    responsiveness.
+                    Implementing state management solutions (React's state and context API, Redux) to manage application state and data flow.
                   </li>
                   <li>
-                    Conducted thorough testing and debugging to identify and fix
-                    any front-end issues or performance bottlenecks, ensuring an
-                    efficient and seamless user experience.
+                    Developed single-page web applications using React, Next, Redux, and Typescript that enabled users to access the company’s resources with ease.
                   </li>
                   <li>
-                    Collaborated with cross-functional teams to gather
-                    requirements, provide technical insights, and deliver
-                    high-quality solutions within project timelines while
-                    optimizing resource utilization.
+                    Wrote unit tests for components and services to ensure code stability and reduce bugs.
+                  </li>
+                  <li>
+                    Wrote unit tests for components and services to ensure code stability and reduce bugs.
+                  </li>
+                  <li>
+                    Integrating with backend APIs and services to fetch and update data using RESTful interfaces.
                   </li>
                 </ul>
               </div>
               <div className="">
-                <p className="myColor">February 2022 - Present</p>
+                <p className="myColor">February 2022 - March 2024</p>
                 <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   Health Station Ltd.
                 </p>
                 <ul>
                   <li>
-                    Contributed to the software team responsible for building
-                    software to support the company's hardware products.
+                    Worked as a frontend and mobile engineer, contributing to the development of web and mobile applications.
                   </li>
-                  <li>Collaborated with design teams to implement complex user interfaces for prioritized features, improving user engagement and retention across multiple product releases, resulting in a 20% increase in user engagement and a 15% increase in user retention.</li>
                   <li>
-                    Applied my knowledge of DSA and SOLID principles to write
-                    better and neater code, thereby increasing the efficiency of
-                    the application by ~40%.
+                    Created user-friendly interfaces and improved the user experience across various platforms.
                   </li>
-                  <li>Deployed 1 android application, integrated with Paystack payment gateway.</li>
+                  <li>
+                    Led the development of the company’s mobile application using Flutter, improving patient engagements by30%.
+                  </li>
+                  <li>
+                    Implemented real-time chat functionality for patient-doctor communication using WebSocket and Firebase.
+                  </li>
+                  <li>
+                    Developed and maintained responsive web applications using React.js and TypeScript, ensuring compatibility across various devices.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams, including designers and backend developers to deliver high-quality products on time.
+                  </li>
+                  <li>
+                    Integrated third-party APIs and services to enhance application functionality and user experience.
+                  </li>
                 </ul>
               </div>
             </article>
