@@ -18,7 +18,7 @@ export const Resume = () => {
             </article>
             <article className="mainContent col-12 col-md-8">
               <div className="">
-                <p className="myColor">March 2024 - June 2024</p>
+                <p className="myColor">March 2024 - September 2024</p>
                 <strong>Mobile Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   MyPouch (Contract)
@@ -99,7 +99,7 @@ export const Resume = () => {
                 </ul>
               </div>
               <div className="">
-                <p className="myColor">February 2022 - March 2024</p>
+                <p className="myColor">February 2022 - November 2024</p>
                 <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   Health Station Ltd.
