@@ -1,5 +1,37 @@
 export const Data = [
   {
+    id: "pelpay",
+    img: "images/pelpay.png",
+    name: "Pelpay",
+    desc: "",
+    demoLink: "https://merchant.pelpay.ng/",
+    githubLink: "",
+  },
+  {
+    id: "yes",
+    img: "images/sayyes.png",
+    name: "Yes App",
+    desc: "",
+    demoLink: "https://sayyes.com.ng/",
+    githubLink: "https://github.com/Josh-la-posh/yes-app",
+  },
+  {
+    id: "geonotifeye",
+    img: "images/geotife.png",
+    name: "Geonotifeye",
+    desc: "A web app used to record and analyze vital statistics while issuing geo-location alerts in real-time.The dashboard provides a user-friendly interface for comprehending data.",
+    demoLink: "https://geonotifeye.com/",
+    githubLink: "",
+  },
+  {
+    id: "fastcare",
+    img: "images/fastcare.jpeg",
+    name: "FastCare App",
+    desc: "",
+    demoLink: "https://play.google.com/store/apps/details?id=com.healthstation.fastcare/",
+    githubLink: "",
+  },
+  {
     id: "oponeko",
     img: "images/oponeko.png",
     name: "Oponeko App",

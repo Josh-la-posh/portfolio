@@ -18,38 +18,61 @@ export const Resume = () => {
             </article>
             <article className="mainContent col-12 col-md-8">
               <div className="">
-                <p className="myColor">March 2024 - September 2024</p>
-                <strong>Mobile Engineer</strong>
+                <p className="myColor">May 2024 - Present</p>
+                <strong>Software Engineer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  Chams Switch LTD.
+                </p>
+                <ul>
+                  <li>
+                    Single-handedly redesigned and developed the company's website and dashboard, significantly improving user experience and functionality.
+                  </li>
+                  <li>
+                    Utilized modern frontend technologies and best practices to create a responsive and intuitive interface for both the website and dashboard.
+                  </li>
+                  <li>
+                    Worked closely with the backend team to integrate APIs, optimize performance, and ensure seamless data flow between frontend and backend systems.
+                  </li>
+                  <li>
+                    Implemented robust state management solutions to handle complex data interactions within the dashboard.
+                  </li>
+                  <li>
+                    Contributed to the overall improvement of the company's digital presence and operational efficiency through innovative frontend solutions.
+                  </li><li>
+                    Worked closely with the backend team to integrate APIs, optimize performance, and ensure seamless data flow between frontend and backend systems.
+                  </li>
+                  <li>
+                    Implemented robust state management solutions to handle complex data interactions within the dashboard.
+                  </li>
+                  <li>
+                    Contributed to the overall improvement of the company's digital presence and operational efficiency through innovative frontend solutions.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <p className="myColor">March 2024 - December 2024</p>
+                <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   MyPouch (Contract)
                 </p>
                 <ul>
                   <li>
-                    Developed the frontend for a currency exchange app, implementing features to ensure seamless user interaction and efficient functionality.
+                    Developed a robust currency exchange mobile application using Flutter, delivering a seamless and intuitive user experience for iOS and Android platforms.
                   </li>
                   <li>
-                    Utilized technologies such Flutter and Provider for state management.
+                    Implemented efficient state management using Provider, ensuring smooth data flow and responsive UI updates throughout the app.
                   </li>
                   <li>
-                    Collaborated with the backend team to integrate APIs and optimize performance.
-                  </li>
-                </ul>
-              </div>
-              <div className="">
-                <p className="myColor">August 2023 - November 2023</p>
-                <strong>Mobile Engineer</strong>
-                <p style={{ fontSize: "1em", color: "#333" }}>
-                  GG Consult (Contract)
-                </p>
-                <ul>
-                  <li>
-                    Developed a custom Admin User Interface library that increased developer productivity and code reusability.
+                    Designed and built key features for currency conversion, real-time exchange rates, and user transaction history, enhancing the app's functionality and user engagement.
                   </li>
                   <li>
-                    Optimized the application for performance, resulting in a 20% reduction in loading time.
+                    Collaborated closely with the backend team to integrate RESTful APIs, optimizing data synchronization and ensuring real-time currency information.
                   </li>
                   <li>
-                    Deployed 1 android application, integrated with Paystack and Braintree payment gateway
+                    Implemented secure user authentication and data encryption protocols to protect sensitive financial information.
+                  </li>
+                  <li>
+                    Conducted thorough testing and debugging to ensure a high-quality, stable application before deployment to app stores.
                   </li>
                 </ul>
               </div>
@@ -68,6 +91,24 @@ export const Resume = () => {
                   </li>
                   <li>
                     Mentored and supported students in their learning journey, providing guidance and feedback to help achieve their learning goals.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <p className="myColor">May 2023 - November 2023</p>
+                <strong>Software Engineer</strong>
+                <p style={{ fontSize: "1em", color: "#333" }}>
+                  GG Consult (Contract)
+                </p>
+                <ul>
+                  <li>
+                    Developed a custom Admin User Interface library that increased developer productivity and code reusability.
+                  </li>
+                  <li>
+                    Optimized the application for performance, resulting in a 20% reduction in loading time.
+                  </li>
+                  <li>
+                    Deployed 1 android application, integrated with Paystack and Braintree payment gateway
                   </li>
                 </ul>
               </div>
@@ -91,15 +132,12 @@ export const Resume = () => {
                     Wrote unit tests for components and services to ensure code stability and reduce bugs.
                   </li>
                   <li>
-                    Wrote unit tests for components and services to ensure code stability and reduce bugs.
-                  </li>
-                  <li>
                     Integrating with backend APIs and services to fetch and update data using RESTful interfaces.
                   </li>
                 </ul>
               </div>
               <div className="">
-                <p className="myColor">February 2022 - November 2024</p>
+                <p className="myColor">February 2022 - February 2024</p>
                 <strong>Software Engineer</strong>
                 <p style={{ fontSize: "1em", color: "#333" }}>
                   Health Station Ltd.
