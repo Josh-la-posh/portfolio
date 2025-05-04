@@ -37,7 +37,7 @@ export const Resume = () => {
                   {/* <li>
                     Worked closely with the backend team to integrate APIs, optimize performance, and ensure seamless data flow between frontend and backend systems.
                   </li> */}
-                  <li>
+                  {/* <li>
                     Implemented robust state management solutions to handle
                     complex data interactions within the dashboard.
                   </li>
@@ -45,7 +45,7 @@ export const Resume = () => {
                     Contributed to the overall improvement of the company's
                     digital presence and operational efficiency through
                     innovative frontend solutions.
-                  </li>
+                  </li> */}
                   <li>
                     Worked closely with the backend team to integrate APIs,
                     optimize performance, and ensure seamless data flow between
