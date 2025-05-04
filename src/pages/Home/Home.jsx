@@ -44,7 +44,7 @@ export const Home = () => {
                 <FontAwesomeIcon className="icon" icon="envelope" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a target="_blank" href="https://www.twitter.com/nova_jy">
                 <FontAwesomeIcon className="icon" icon={["fab", "twitter"]} />
               </a>
@@ -53,7 +53,7 @@ export const Home = () => {
               <a target="_blank" href="https://www.instagram.com/josh_la_posh">
                 <FontAwesomeIcon className="icon" icon={["fab", "instagram"]} />
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

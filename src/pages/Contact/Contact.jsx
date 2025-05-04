@@ -80,7 +80,7 @@ export const Contact = () => {
                   Linkedln
                 </a>
               </li>
-              <li className="col-xs-12 col-sm-2">
+              {/* <li className="col-xs-12 col-sm-2">
                 <a target="_blank" href="https://www.twitter.com/nova_jy">
                   <FontAwesomeIcon
                     className="icon"
@@ -102,7 +102,7 @@ export const Contact = () => {
                   />{" "}
                   Instagram
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
