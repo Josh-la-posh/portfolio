@@ -6,7 +6,7 @@ export const Portfolio = () => {
     <div className="pageBody">
       <div className="pageContainer">
         <header>
-          <h1>Meet Joshua Fajobi</h1>
+          <h1>Portfolio</h1>
           <p>Portfolio showcase of some of my work.</p>
         </header>
 

@@ -25,27 +25,40 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Single-handedly redesigned and developed the company's website and dashboard, significantly improving user experience and functionality.
+                    Single-handedly redesigned and developed the company's
+                    website and dashboard, significantly improving user
+                    experience and functionality.
                   </li>
                   <li>
-                    Utilized modern frontend technologies and best practices to create a responsive and intuitive interface for both the website and dashboard.
+                    Utilized modern frontend technologies and best practices to
+                    create a responsive and intuitive interface for both the
+                    website and dashboard.
                   </li>
-                  <li>
+                  {/* <li>
                     Worked closely with the backend team to integrate APIs, optimize performance, and ensure seamless data flow between frontend and backend systems.
+                  </li> */}
+                  <li>
+                    Implemented robust state management solutions to handle
+                    complex data interactions within the dashboard.
                   </li>
                   <li>
-                    Implemented robust state management solutions to handle complex data interactions within the dashboard.
+                    Contributed to the overall improvement of the company's
+                    digital presence and operational efficiency through
+                    innovative frontend solutions.
                   </li>
                   <li>
-                    Contributed to the overall improvement of the company's digital presence and operational efficiency through innovative frontend solutions.
-                  </li><li>
-                    Worked closely with the backend team to integrate APIs, optimize performance, and ensure seamless data flow between frontend and backend systems.
+                    Worked closely with the backend team to integrate APIs,
+                    optimize performance, and ensure seamless data flow between
+                    frontend and backend systems.
                   </li>
                   <li>
-                    Implemented robust state management solutions to handle complex data interactions within the dashboard.
+                    Implemented robust state management solutions to handle
+                    complex data interactions within the dashboard.
                   </li>
                   <li>
-                    Contributed to the overall improvement of the company's digital presence and operational efficiency through innovative frontend solutions.
+                    Contributed to the overall improvement of the company's
+                    digital presence and operational efficiency through
+                    innovative frontend solutions.
                   </li>
                 </ul>
               </div>
@@ -57,22 +70,33 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Developed a robust currency exchange mobile application using Flutter, delivering a seamless and intuitive user experience for iOS and Android platforms.
+                    Developed a robust currency exchange mobile application
+                    using Flutter, delivering a seamless and intuitive user
+                    experience for iOS and Android platforms.
                   </li>
                   <li>
-                    Implemented efficient state management using Provider, ensuring smooth data flow and responsive UI updates throughout the app.
+                    Implemented efficient state management using Provider,
+                    ensuring smooth data flow and responsive UI updates
+                    throughout the app.
                   </li>
                   <li>
-                    Designed and built key features for currency conversion, real-time exchange rates, and user transaction history, enhancing the app's functionality and user engagement.
+                    Designed and built key features for currency conversion,
+                    real-time exchange rates, and user transaction history,
+                    enhancing the app's functionality and user engagement.
                   </li>
                   <li>
-                    Collaborated closely with the backend team to integrate RESTful APIs, optimizing data synchronization and ensuring real-time currency information.
+                    Collaborated closely with the backend team to integrate
+                    RESTful APIs, optimizing data synchronization and ensuring
+                    real-time currency information.
                   </li>
                   <li>
-                    Implemented secure user authentication and data encryption protocols to protect sensitive financial information.
+                    Implemented secure user authentication and data encryption
+                    protocols to protect sensitive financial information.
                   </li>
                   <li>
-                    Conducted thorough testing and debugging to ensure a high-quality, stable application before deployment to app stores.
+                    Conducted thorough testing and debugging to ensure a
+                    high-quality, stable application before deployment to app
+                    stores.
                   </li>
                 </ul>
               </div>
@@ -84,13 +108,19 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Taught programming languages and concepts to students of varying skill levels, focusing on practical application and real-world projects.
+                    Taught programming languages and concepts to students of
+                    varying skill levels, focusing on practical application and
+                    real-world projects.
                   </li>
                   <li>
-                    Developed curriculum and teaching materials for programming courses, utilizing interactive learning activities and practical exercises to increase student retention.
+                    Developed curriculum and teaching materials for programming
+                    courses, utilizing interactive learning activities and
+                    practical exercises to increase student retention.
                   </li>
                   <li>
-                    Mentored and supported students in their learning journey, providing guidance and feedback to help achieve their learning goals.
+                    Mentored and supported students in their learning journey,
+                    providing guidance and feedback to help achieve their
+                    learning goals.
                   </li>
                 </ul>
               </div>
@@ -102,13 +132,16 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Developed a custom Admin User Interface library that increased developer productivity and code reusability.
+                    Developed a custom Admin User Interface library that
+                    increased developer productivity and code reusability.
                   </li>
                   <li>
-                    Optimized the application for performance, resulting in a 20% reduction in loading time.
+                    Optimized the application for performance, resulting in a
+                    <strong> 60% </strong>reduction in loading time.
                   </li>
                   <li>
-                    Deployed 1 android application, integrated with Paystack and Braintree payment gateway
+                    Deployed 1 android application, integrated with Paystack and
+                    Braintree payment gateway
                   </li>
                 </ul>
               </div>
@@ -120,19 +153,27 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Contributed to the creation of engaging user interfaces and deliver high-quality web applications that meet both functional and aesthetic requirements.
+                    Contributed to the creation of engaging user interfaces and
+                    deliver high-quality web applications that meet both
+                    functional and aesthetic requirements.
                   </li>
                   <li>
-                    Implementing state management solutions (React's state and context API, Redux) to manage application state and data flow.
+                    Implemented state management solutions (React's state and
+                    context API, Redux) to manage application state and data
+                    flow.
                   </li>
                   <li>
-                    Developed single-page web applications using React, Next, Redux, and Typescript that enabled users to access the company’s resources with ease.
+                    Developed single-page web applications using React, Next,
+                    Redux, and Typescript that enabled users to access the
+                    company’s resources with ease.
                   </li>
                   <li>
-                    Wrote unit tests for components and services to ensure code stability and reduce bugs.
+                    Wrote unit tests for components and services to ensure code
+                    stability and reduce bugs.
                   </li>
                   <li>
-                    Integrating with backend APIs and services to fetch and update data using RESTful interfaces.
+                    Integrated with backend APIs and services to fetch and
+                    update data using RESTful interfaces.
                   </li>
                 </ul>
               </div>
@@ -144,25 +185,34 @@ export const Resume = () => {
                 </p>
                 <ul>
                   <li>
-                    Worked as a frontend and mobile engineer, contributing to the development of web and mobile applications.
+                    Worked as a frontend and mobile engineer, contributing to
+                    the development of web and mobile applications.
                   </li>
                   <li>
-                    Created user-friendly interfaces and improved the user experience across various platforms.
+                    Created user-friendly interfaces and improved the user
+                    experience across various platforms.
                   </li>
                   <li>
-                    Led the development of the company’s mobile application using Flutter, improving patient engagements by30%.
+                    Led the development of the company’s mobile application
+                    using Flutter, improving patient engagements by <strong>50%</strong>.
                   </li>
                   <li>
-                    Implemented real-time chat functionality for patient-doctor communication using WebSocket and Firebase.
+                    Implemented real-time chat functionality for patient-doctor
+                    communication using WebSocket and Firebase.
                   </li>
                   <li>
-                    Developed and maintained responsive web applications using React.js and TypeScript, ensuring compatibility across various devices.
+                    Developed and maintained responsive web applications using
+                    React.js and TypeScript, ensuring compatibility across
+                    various devices.
                   </li>
                   <li>
-                    Collaborated with cross-functional teams, including designers and backend developers to deliver high-quality products on time.
+                    Collaborated with cross-functional teams, including
+                    designers and backend developers to deliver high-quality
+                    products on time.
                   </li>
                   <li>
-                    Integrated third-party APIs and services to enhance application functionality and user experience.
+                    Integrated third-party APIs and services to enhance
+                    application functionality and user experience.
                   </li>
                 </ul>
               </div>
@@ -307,7 +357,7 @@ export const Resume = () => {
                     src="../../../icons/linux.png"
                     alt=""
                     width={80}
-                    style={{ marginLeft: "-1.5rem", marginRight: '-1.5rem' }}
+                    style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
                   />
                 </li>
                 <li className="stack">
