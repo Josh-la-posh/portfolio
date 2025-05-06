@@ -4,7 +4,15 @@ export const Data = [
     img: "images/pelpay.png",
     name: "Pelpay",
     desc: "",
-    demoLink: "https://merchant.pelpay.ng/",
+    demoLink: "https://merchant.pelpay.ng",
+    githubLink: "",
+  },
+  {
+    id: "myPouch",
+    img: "images/myPouch.jpeg",
+    name: "Pouch",
+    desc: "",
+    demoLink: "mypouch-dashboard.vercel.app",
     githubLink: "",
   },
   {
@@ -20,7 +28,7 @@ export const Data = [
     img: "images/geotife.png",
     name: "Geonotifeye",
     desc: "A web app used to record and analyze vital statistics while issuing geo-location alerts in real-time.The dashboard provides a user-friendly interface for comprehending data.",
-    demoLink: "https://geonotifeye.com/",
+    demoLink: "https://geonotifeye.com",
     githubLink: "",
   },
   {
@@ -28,7 +36,7 @@ export const Data = [
     img: "images/fastcare.jpeg",
     name: "FastCare App",
     desc: "",
-    demoLink: "https://play.google.com/store/apps/details?id=com.healthstation.fastcare/",
+    demoLink: "https://play.google.com/store/apps/details?id=com.healthstation.fastcare",
     githubLink: "",
   },
   {
@@ -36,7 +44,7 @@ export const Data = [
     img: "images/oponeko.png",
     name: "Oponeko App",
     desc: "",
-    demoLink: "https://oponeko.com/",
+    demoLink: "https://oponeko.com",
     githubLink: "",
   },
   {
@@ -44,7 +52,7 @@ export const Data = [
     img: "images/touramp.png",
     name: "Touramp Food App",
     desc: "",
-    demoLink: "https://touramp.xyz/",
+    demoLink: "https://touramp.xyz",
     githubLink: "",
   },
   {
